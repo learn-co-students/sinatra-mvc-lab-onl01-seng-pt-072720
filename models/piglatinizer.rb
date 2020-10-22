@@ -11,6 +11,7 @@ class PigLatinizer
 
   def latinize(word)
     answer = ""
+    #making another change to the code
     # making changes to code
     if(Checker.match(word) == nil)
       answer = "#{word}way"
